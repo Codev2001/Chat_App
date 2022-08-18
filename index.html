@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY-CHATT.in</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <nav class="navbar">
+    <div class="seaerchbox">
+    <Input placeholder="Search" class="srch"/>
+    <button >Search</button>
+    </div>
+    <h1>MY-CHATT.in</h1>
+   
+    <div><a class="link">
+        REGISTER
+    </a>
+    <a class="link">
+        LOGIN
+    </a>
+</div>
+</nav>
+<div class="container">
+    <div class="filler">
+    </div>
+    <div class="wrapper" id="wrapper">
+
+    </div>
+<div class="Send">
+    <form action="#" id="send-container">
+<input placeholder="Write your message here" name="messageInp" id="messageInp" class="Inputt">
+<button class="button" type="submit" ><span>SEND</span></button>
+</form>
+</div>
+</div>
+
+</body>
+</html>
